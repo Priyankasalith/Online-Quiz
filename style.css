@@ -8,9 +8,13 @@
 body{
     background:#f4f4f4;
     display:flex;
+    flex-direction: column; /* Stacks the items vertically */
     justify-content:center;
     align-items:center;
     min-height:100vh;
+    gap: 20px;              /* Adds spacing between the top and bottom box */
+    padding: 20px 0;        /* Prevents clipping on smaller screens */
+
 }
 
 .quiz-container{
@@ -76,6 +80,7 @@ button:hover{
 .result h2{
     color:#28a745;
 }
+
 
 .box{
     width: 500px;
